@@ -1,12 +1,33 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 20;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
 }
 h3{
     font-size: 25px;
 }
+h4{
+    color: rgb(87, 82, 82);
+    text-align: center;
+}
+#row{
+    text-align: center;
+}
 h2{
     font-size: 35px;
+}
+#tire{
+    text-align: center;
+}
+.top-banner{
+    background-image: url("images2/header-bg.png");
+    background-repeat: no-repeat;
 }
 .orange-highlight{
     color: orange;
@@ -14,20 +35,67 @@ h2{
 .half-width{
     width: 40%;
     float: left;
+    margin-left: 8px;
+    padding: 5px;
+}
+#half-width{
+    width: 40%;
+    float: left;
     margin: 8px;
     padding: 5px;
 }
 .half-width img{
-    width: 100%;
+    width: 40%;
+    float: left;
+    padding: 15px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+#half-width img{
+    width: 60%;
     padding: 5px;
-    
+    margin: 10px;
 }
 .link-button{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    background-color: orange;
-    background-image: linear-gradient("45deg, salmon, tomato");
+    background-color: rgb(235, 57, 57);
+    background-image: linear-gradient(45deg, rgb(224, 98, 119), rgb(240, 51, 51));
     padding: 10px 20px;
     border-radius: 7px;
+}
+#link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(224, 98, 119), rgb(240, 51, 51));
+    padding: 35px 55px;
+    border-radius: 7px;
+    text-align: center;
+}
+.biography-area{
+    background-image: url("images2/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work{
+    background-image: url("images2/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.last{
+    background-image: url("images2/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.glass{
+    width: 30%;
+    float: left;
+    padding: 2px;
+    padding-left: 40px;
+}
+footer{
+    text-align: center;
+    font-weight: 500;
 }
